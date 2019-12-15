@@ -19,7 +19,7 @@
     display: flex;
     justify-content: flex-start;
 }
-    figure{
+.logo .icon{
         width: 30px;
         height: 30px;
         border-radius: 50%;
@@ -52,11 +52,26 @@ main .post-destacado{
     grid-template-columns: minmax(100px, 1fr) 5fr;
     grid-template-rows: minmax(100px, 1fr);
 }
-main .post-destacado .item:nth-of-type(1){
-    background-color: red;
-}
+
 
 main .imagenes{
     width: 100%;
-    height: ;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .imagenes .imgPost{
+    height: 100px;
+    width: 100px;
+    margin: .5em 1em;
+    display: flex;
+    align-items: flex-end;
+}
+
+main .imagenes .imgPost .title{
+    height: 20px;
+    width: 100%;
 }
