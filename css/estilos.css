@@ -33,9 +33,8 @@
 
 .menu a{
     display: inline;
-    width: 55px;
-    height: 15px;
-    margin-right: 1em;
+    padding: .5em 2em;
+    margin: .5em;
 
 
 }
